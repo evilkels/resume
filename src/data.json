@@ -1,0 +1,233 @@
+{
+  "personalInfo": {
+    "name": "Elvijs Ernests Vilkels",
+    "profession": "Full-stack Developer",
+    "image": "/profilepic.jpg",
+    "summary": [
+      "I'm a Computer Scientist with hands-on experience in diverse tech areas. My expertise mostly is in software development and Robotics, including Wireless Sensor Networks. Additionally, I have basic knowledge and understanding of Machine Learning, Virtual Reality, and 3D printing. I am quick to learn and adapt.",
+      "I firmly believe in using our brains and technology to achieve personal goals. I'm especially excited about the potential impact of Wireless Sensor Network Data collection and data display using various web and mobile technologies. These solutions can help make the world a better place.",
+      "Beyond tech, I'm a social and outgoing person who enjoys music and outdoor adventures.",
+      "Apart from my technical skills, I bring solid teamwork, a strong desire to learn, and expertise in Agile and Scrum methodologies. I also have a keen eye for user-friendly design patterns in UI and UX."
+    ]
+  },
+  "workExperience": [
+    {
+      "position": "Full-stack Developer",
+      "company": "Visas Iespejas",
+      "startDate": "Sep 2018",
+      "endDate": "Present",
+      "responsibilities": [
+        "Worked in a small team to create and build a base structure of a scalable multi-country web system. Had a major role designing and engineering Backend architecture - Graphql serverless Apollo functions that use Nexus.js and Prisma middle layers on top of PostgreSQL. Optimized data queries and mutation operations for improved performance and scalability.",
+        "Participated in collaborative Teamwork working with cross-functional teams, including product managers, designers, and QA engineers, to deliver high-quality projects.",
+        "Working in a small company I've managed to work on a lot of different Dev ops technologies as well. Git, ci-cd, GA4, AWS, and more. "
+      ]
+    },
+    {
+      "position": "Development Lead",
+      "company": "Kurp.es",
+      "startDate": "Jul 2018",
+      "endDate": "Present",
+      "responsibilities": [
+        "Public Event browsing platform with options to create dynamic and filtered iframes on different websites.",
+        "User administration, content management, and data analysis.",
+        "Built using React.js, Graphql, Sequelize, and PostgreSQL and hosted on AWS cloud infrastructure (EC2)."
+      ]
+    },
+    {
+      "position": "Software Developer",
+      "company": "E-Synergy",
+      "startDate": "Jun 2017",
+      "endDate": "May 2018",
+      "responsibilities": [
+        "Learned the key principles of the IT industry and development workflow. Practiced Software development with Node.js and React.js. Aside from programming, did various computer system-related tasks such as, setting up servers, server monitoring, testing and etc."
+      ]
+    },
+    {
+      "position": "Summer Intern",
+      "company": "Amber Broker Baltic",
+      "startDate": "Jun 2013",
+      "endDate": "Aug 2013",
+      "responsibilities": [
+        "As an Intern in an insurance broker company. I was working with obligatory insurance computer systems and gaining basic computer skills with MS Excel formulas and workflows. My original position where broker assistant."
+      ]
+    },
+    {
+      "position": "Student Partner",
+      "company": "Microsoft",
+      "startDate": "Nov 2015",
+      "endDate": "Oct 2019",
+      "responsibilities": [
+        "As a Microsoft Student Partner, I attended IT conferences, attended different workshops, organized meetings, and taught MS Technologies to students and scholars. Student Partners working together with local universities and schools help spread and teach how to use it in everyday work or studies."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science, IT",
+      "school": "University of Latvia",
+      "startDate": "Sep 2014",
+      "endDate": "Jun 2018",
+      "description": [
+        "Studying a major in computer science, because I'm very found of modern technology by itself and I am willing to obtain more new information in this field!"
+      ]
+    },
+    {
+      "degree": "Master of Science in Computer Science",
+      "school": "Riga State Gymnasium no 1",
+      "startDate": "Sep 2011",
+      "endDate": "Jun 2014",
+      "description": [
+        "Improved my knowledge in exact sciences and programming.",
+        "Took part in various exact sciences and robotics classes.",
+        "Contributed to the organization of school events by assisting with the setup of sound systems and lighting, with notable involvement in the Winter Gala event."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Visas Iespejas",
+      "description": "Multi country web system and platform for youth to find global opportunities and work.",
+      "technologies": [
+        "React",
+        "Next.js",
+        "Prisma",
+        "Nexus.js",
+        "PostgreSQL",
+        "AWS",
+        "Serverless"
+      ],
+      "url": "https://www.visasiespejas.lv/en"
+    },
+    {
+      "title": "News Medium \"Latviesi.com\"",
+      "description": "News medium for Latvian people living abroad. Organizations and groups can post their news and events. Market their business. Redaction manages all content in website via admin panel.",
+      "technologies": [
+        "React",
+        "Node.js",
+        "DynamoDB",
+        "AWS",
+        "Serverless"
+      ],
+      "url": "https://www.latviesi.com"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "details": [
+        {
+          "name": "Typescript (Javascript)",
+          "level": 4.8
+        },
+        {
+          "name": "Python",
+          "level": 4.3
+        },
+        {
+          "name": "C++",
+          "level": 2.6
+        }
+      ]
+    },
+    {
+      "category": "Web Development",
+      "details": [
+        {
+          "name": "HTML",
+          "level": 4.82
+        },
+        {
+          "name": "CSS",
+          "level": 4.88
+        },
+        {
+          "name": "React",
+          "level": 4.78
+        },
+        {
+          "name": "Node.js",
+          "level": 4.4
+        },
+        {
+          "name": "Express",
+          "level": 4.2
+        },
+        {
+          "name": "Prisma",
+          "level": 4.7
+        },
+        {
+          "name": "Next.js",
+          "level": 4.5
+        },
+        {
+          "name": "Apollo",
+          "level": 4.5
+        },
+        {
+          "name": "Graphql",
+          "level": 4
+        },
+        {
+          "name": "AWS",
+          "level": 3.5
+        },
+        {
+          "name": "Serverless",
+          "level": 3.4
+        },
+        {
+          "name": "Nexus.js",
+          "level": 4
+        },
+        {
+          "name": "TypeORM",
+          "level": 3.5
+        },
+        {
+          "name": "Sequelize",
+          "level": 3
+        },
+        {
+          "name": "DynamoDB",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "category": "Databases",
+      "details": [
+        {
+          "name": "PostgreSQL",
+          "level": 4
+        },
+        {
+          "name": "MySQL",
+          "level": 3
+        },
+        {
+          "name": "DynamoDB",
+          "level": 3
+        },
+        {
+          "name": "MongoDB",
+          "level": 2
+        }
+      ]
+    }
+  ],
+  "languageSkills": [
+    {
+      "language": "Latvian",
+      "proficiency": "Native"
+    },
+    {
+      "language": "English",
+      "proficiency": "Fluent, Professional"
+    },
+    {
+      "language": "Russian",
+      "proficiency": "Spoken"
+    }
+  ]
+}
