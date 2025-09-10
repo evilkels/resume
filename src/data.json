@@ -26,7 +26,7 @@
       "position": "Development Lead",
       "company": "Kurp.es",
       "startDate": "Jul 2018",
-      "endDate": "Present",
+      "endDate": "Jul 2023",
       "responsibilities": [
         "Public Event browsing platform with options to create dynamic and filtered iframes on different websites.",
         "User administration, content management, and data analysis.",
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "degree": "Master of Science in Computer Science",
+      "degree": "High School Diploma",
       "school": "Riga State Gymnasium no 1",
       "startDate": "Sep 2011",
       "endDate": "Jun 2014",
@@ -84,6 +84,21 @@
     }
   ],
   "projects": [
+    {
+      "title": "Darbe.lv Platform",
+      "description": "Job listing platform for Latvian market. Companies can post their job offers and search for candidates. Candidates can create their profiles, apply for jobs, and get notifications about new job offers. Platform helps companies to better match with potential candidates and helps solve first stage of recruitment process.",
+      "technologies": [
+        "React",
+        "Typescript",
+        "Next.js",
+        "Graphql",
+        "Apollo",
+        "Prisma",
+        "PostgreSQL",
+        "AWS"
+      ],
+      "url": "https://www.darbe.lv"
+    },
     {
       "title": "Visas Iespejas",
       "description": "Multi country web system and platform for youth to find global opportunities and work.",

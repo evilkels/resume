@@ -11,6 +11,7 @@ interface ProjectsBlockProps {
   url: string;
 }
 const StyledBlock = styled.div({
+  width: "100%",
   display: "flex",
   flexDirection: "column",
   alignItems: "flex-start",
@@ -44,6 +45,7 @@ const StyledBlock = styled.div({
     justifyContent: "flex-start",
     gap: "0.2em",
     margin: "1em",
+    flexWrap: "wrap",
   },
 });
 const ProjectsBlock: React.FC<ProjectsBlockProps> = ({

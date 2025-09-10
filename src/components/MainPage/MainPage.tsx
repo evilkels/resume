@@ -31,13 +31,28 @@ const MainPage = (props: Props) => {
   return (
     <StyledPage>
       <div>
-        <BlockTitle title="Personal Info" icon={<IconUser />}>
-          {data.personalInfo.summary.map((s, idx) => (
-            <Text m={"1em 0"} key={idx + 1}>
-              {s}
-            </Text>
-          ))}
-        </BlockTitle>
+        <div style={{ display: "grid", gridTemplateColumns: "50% 50%", gap: "1em" }}>
+          <BlockTitle title="Personal Info" icon={<IconUser />}>
+            {data.personalInfo.summary.map((s, idx) => (
+              <Text m={"1em 0"} key={idx + 1}>
+                {s}
+              </Text>
+            ))}
+          </BlockTitle>
+          <BlockTitle title="Education" icon={<IconSchool />}>
+            {data.education.map((item) => (
+              <EducationBlock
+                key={item.school}
+                school={item.school}
+                degree={item.degree}
+                startDate={item.startDate}
+                endDate={item.endDate}
+                description={item.description}
+              />
+            ))}
+          </BlockTitle>
+        </div>
+
         <BlockTitle title="Work experience" icon={<IconBriefcase />}>
           {data.workExperience.map((item) => (
             <WorkExperienceBlock
@@ -50,6 +65,7 @@ const MainPage = (props: Props) => {
             />
           ))}
         </BlockTitle>
+
         <BlockTitle title="Projects" icon={<IconDevices2 />}>
           {data.projects.map((item) => (
             <ProjectsBlock
@@ -58,18 +74,6 @@ const MainPage = (props: Props) => {
               description={item.description}
               technologies={item.technologies}
               url={item.url}
-            />
-          ))}
-        </BlockTitle>
-        <BlockTitle title="Education" icon={<IconSchool />}>
-          {data.education.map((item) => (
-            <EducationBlock
-              key={item.school}
-              school={item.school}
-              degree={item.degree}
-              startDate={item.startDate}
-              endDate={item.endDate}
-              description={item.description}
             />
           ))}
         </BlockTitle>

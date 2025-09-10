@@ -6,6 +6,7 @@ import {
   IconLocation,
   IconMail,
   IconPhone,
+  IconUser,
 } from "@tabler/icons-react";
 import Link from "next/link";
 import React from "react";
@@ -42,9 +43,11 @@ const DetailBlock = (props: Props) => {
   return (
     <StyledBlock>
       <Title order={3}>Details:</Title>
-      <Text>29 years old</Text>
       <Text className="icontext">
         <IconLocation /> Located in <strong>Riga, Latvia</strong>
+      </Text>
+      <Text className="icontext">
+        <IconUser /> 30 years old
       </Text>
       <Text className="icontext">
         <IconPhone /> +371 26843750
